@@ -11,7 +11,7 @@ process.stdin.on('readable', function () {
                 break;
             case 'info':
                 console.log('Node version: ' + process.versions.node);
-                process.stdout.write('Langue version: ' + process.env.LANG + '\n');
+                process.stdout.write('Language version: ' + process.env.LANG + '\n');
                 break;
             default:
                 process.stdout.write('Wrong instruction!\n');
